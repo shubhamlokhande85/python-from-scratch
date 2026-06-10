@@ -1,5 +1,5 @@
 
-'''The proficient programmer who write code in short 
+'''The proficient programmer is who write code in short 
  and with powerful logic and also most meaningful program'''
 
 
