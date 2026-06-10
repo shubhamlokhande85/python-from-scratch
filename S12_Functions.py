@@ -38,7 +38,7 @@ display2(2,2) # 2,2 argumnets & its reference to the a and b parameters
 
 ''' C . return statement'''
 '''it is keyword that return output to the function call '''
-# note - function call store the returned output from function return in itself
+# note - function call store the returned output from function to itself
 
 #eg 
 def display3(a,b):
@@ -69,12 +69,12 @@ show1(1,2,3,4)
 '''in this format parameter values are already predefined in function defination as
 default values and its executes when arguments values not in fuction call '''
 #eg1
-def show2(a,b=1,c=4):
+def show2(a,b=1,c=4): # a = 5 
     print(a+b+c)
 show2(5)
 # 10 
 # eg2
-def show3(a,b,c=4):
+def show3(a,b=10 ,c=4): # b = 5 --here b=10 default value 
     print(a+b+c)
 show3(5,5)
 #14
@@ -88,11 +88,12 @@ def show4(name,age,qualification):
     
 show4(name="shubham lokhande",age = "24",qualification="Data Engineer")
 #here even if make argumnets order unoreded its still work because we specified their name
+
 '''D.4 arbitory or variable-length arguments - *args - (multiple arguments)'''
 '''its used when you want a function to accept any numbers of arguments 
 without knows how many will be passed'''
 '''note 1. * are used to call extra positon arguments for defined position parameter(*z)
-     2. output is stored in a tuple'''
+        2. output is stored in a tuple'''
      
 def show5(y,*z):
     print("y: ",y)
@@ -116,3 +117,10 @@ print("css is stands for cascading style sheets ")
 name = input("Enter your name :" ) # shubham
 print("welcome", name)
 # welcome shubham
+
+'''c.len()'''
+'''its used measure length of characters for example  string,intger ..etc'''
+'''len() return intger value '''
+a= "shubham"
+print(len(a))
+# 7 

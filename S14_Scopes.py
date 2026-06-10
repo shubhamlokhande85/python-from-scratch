@@ -20,11 +20,14 @@ display()
 global keyword it is also global variable '''
 
 def display2():
-    global y # its tell python y is now global variable  so we access y outside the function 
-    y = "hi I'm shubham " 
+    global y# its tell python y is now global variable  so we access y outside the function 
+    y= "hi I'm shubham " 
 display2()
 
-print(y)
+print(y) 
+
+# when you decalear global keyword to varialble in local scope now  even if we have duplicate that 
+# variable outside the loacl scope  in previous that value changed now 
 # output 
 # hi I'm shubham 
 
