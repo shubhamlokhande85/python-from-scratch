@@ -1,0 +1,33 @@
+1] In Tkinter, the create_oval() method of a Canvas widget is used to draw an oval or ellipse. If the bounding box is a square, it draws a circle.
+
+Syntax :- canvas.create_oval(x1, y1, x2, y2, options)
+
+where,
+x1, y1 = Coordinates of the top-left corner of the bounding rectangle.
+x2, y2 = Coordinates of the bottom-right corner of the bounding rectangle.
+options = Optional styling parameters such as :- 
+1. fill = Fill color of the oval.
+2. outline = Border color.
+3. width = Border thickness.
+4. dash = Dashed outline pattern.
+
+2] In case of this statement canvas.create_oval(50, 25, 150, 125, fill="red", outline="brown", width=10) the first four numbers define the bounding rectangle in which the oval is drawn.
+So here,
+| Value | Meaning                         |
+| ----- | ------------------------------- |
+| `50`  | `x1` → left edge of rectangle   |
+| `25`  | `y1` → top edge of rectangle    |
+| `150` | `x2` → right edge of rectangle  |
+| `125` | `y2` → bottom edge of rectangle |
+
+Note :- The dash parameter makes the outline of the oval dashed instead of solid.
+
+3] How dash works? 
+dash=(on_pixels, off_pixels)
+
+For Example :- dash=(5, 3)
+means
+1. Draw 5 pixels
+2. Skip 3 pixels
+3. Repeat around the outline
+	
