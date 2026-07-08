@@ -9,8 +9,8 @@ task  like file and directory mangement
 
 c.when we use OS module for file handling we must import os module as import os
 
-d.in python rolt of os module in file handling is that it is used for file operatios
-dhat go beyond reading and writing files , such as renaming a file ,deleting a file , 
+d.in python role of os module in file handling is that it is used for file operatios
+that go beyond reading and writing files , such as renaming a file ,deleting a file , 
 checking if a file exists etc'''
 
 '1.os.rename()'
