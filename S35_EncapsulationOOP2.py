@@ -75,7 +75,7 @@ pp.price()
 # eg 03 - Exception case - depend on scope or reference
 '''
 in case of same attribute name's self always execute that attribute or method
-that refer to object(object attribute) and igonores local attribute'''
+that refer(self) to object(object attribute) and igonores local attribute'''
 
 'let me show how that works '
 'a.'
@@ -97,3 +97,4 @@ class student3:
 sss=student3()
 sss.display()
 #Student Name: rahul
+

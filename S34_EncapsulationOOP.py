@@ -1,6 +1,7 @@
 'OBJECT ORIENTED PROGRAMMING'
 
 'A.ENCAPSULATION'
+'Keeping data and methods together in one class'
 
 '01.Class'
 
