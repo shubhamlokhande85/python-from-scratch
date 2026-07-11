@@ -62,6 +62,7 @@ ddd.product()
 'B.accessing method from base class to derived class'
 'super()'
 'We use super() to access method from base class in drerived class '
+'-its only used in case of inheritance only'
 #eg
 class base1:
     def show(self,name):
@@ -82,7 +83,8 @@ class base :
     k = 20 
     
 class derived(base):
-    l = base.k  # base class attribute stored in it using -  derived_class_attribute = base_class_name.attribute_name
+    l = base.k 
+    '# base class attribute stored in it using -  derived_class_attribute = base_class_name.attribute_name'
     m = 40
     def show(self):
         print("stored attribute in derived class",self.l ,"and sum of of it with derived class attribute",self.m,"sum:", self.l+self.m)

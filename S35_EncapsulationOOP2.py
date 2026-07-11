@@ -25,7 +25,7 @@ class student:
             
 s=student("sam",80)
 
-#eg 02 - calling class outsidely - its run when we try to access atrribute or method
+#eg 02 - calling class outsidely - its only run when we try to access atrribute or method
 class empolyee: 
     def __init__(self,name,salary):
         self.name=name
