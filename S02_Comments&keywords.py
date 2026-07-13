@@ -17,7 +17,7 @@ break               for                 not   '''
 
 # i) single line comments 
 # hello world 
-'hello' # this also single command 
+'hello' # this also single comment
 
 # ii)Multi line comments 
 '''comments are used for documentation purpose 
