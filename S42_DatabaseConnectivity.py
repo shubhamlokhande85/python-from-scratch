@@ -28,7 +28,7 @@ cmd- pip list  '''
 
 
 '''
-NOTEs - To learn commit(), .fetchall() .execute() This concepts are metioned in session S42'''
+NOTEs - To learn .connect(), .commit(), .fetchall() .execute() This concepts are mentioned in session S41'''
 
 
 
@@ -180,7 +180,7 @@ mysql> select * from student;
 
 '19.renaming a table using alter table statement '
 '''
-cursor.execute("alter table std rename to student")
+cursor.execute("alter table student rename to std")
 print("renamed a table successfully")'''
 #renamed a table successfully 
 

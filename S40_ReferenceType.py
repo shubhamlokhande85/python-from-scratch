@@ -27,7 +27,7 @@ for i in numbers:  # here iterator = numbers.__iter__()
 # eg 02
 sum_num=[2,4,6,8,10]
 iterator=sum_num.__iter__()
-print(next(iterator)) # if here we does not used next fuction then it will return output in object type likle -<list_iterator object at 0x00000226DB3C05B0>
+print(next(iterator)) # if here we does not used next() fuction then it will return output in object type likle -<list_iterator object at 0x00000226DB3C05B0>
 print(next(iterator))
 print(next(iterator))
 print(next(iterator))
