@@ -126,5 +126,3 @@ print(np.tan(t))
 # this how we can use multiple mathematical and trigonomatric function in numpy
 # to solve complex mathematical calculations and problems
  
-
-
