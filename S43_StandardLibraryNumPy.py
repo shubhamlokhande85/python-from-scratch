@@ -56,7 +56,7 @@ print(np.sqrt(49))
 '-In numpy we get raise second number into power of first number using .power()'
 '-and it take only two arguments'
 m,n=4,3
-p=np.power(m,n) # 4*4*4*4
+p=np.power(m,n) # 4*4*4
 print(p)
 #256
 
@@ -101,7 +101,7 @@ radians = pi/180*30
         =3.14/6
         =0.5
         
-IMP NOTEs : In NumPy we use pi/6 as a radians value not 0.5
+IMP NOTEs : In NumPy we use pi/6 as a radians value not 0.5 or 3.15
 '''
 '#eg2 : 30 degree in radians using NumPy for a  -sin(30)'
 s=np.pi/6  # np.30

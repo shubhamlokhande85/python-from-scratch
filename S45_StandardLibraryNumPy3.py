@@ -283,5 +283,5 @@ print(add_scalar)
 arr21=np.array([1,2,3,4])
 mul_scalar=arr21 * 5
 print(mul_scalar)
-# [ 5 10 15 20]
+# [ 5 10 15 20]  
 
