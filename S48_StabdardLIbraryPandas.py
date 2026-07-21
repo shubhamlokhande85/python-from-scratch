@@ -31,7 +31,7 @@ print(df)
 # 3    4   ijk     67      delhi
 # 4    5   def     76    kolhapur
 # 5    6   rrr     91  bengaluru
-'note: the first column in above table without naem is repersenting a row_index_number that start from 0'
+'note: the first column in above table without name is repersenting a row_index_number that start from 0'
 
 
 'B.Viewing data'
