@@ -1,5 +1,7 @@
 '''A.global scope '''
-# - outside function or class which scope we have is global scope
+'# - outside function or class which scope we have is global scope'
+
+
 '''1.global variable'''
 '''a global variable is variable is defined outside of any
 function or class and it can be accessed from anywhere in 

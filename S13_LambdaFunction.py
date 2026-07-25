@@ -35,9 +35,11 @@ print(addition)
 
 '''output is object - <map object at 0x000001A74BA8B080>'''
 
-# its return output in object that why 
-# we need to use iterable datatype function (list()) like here used list iterable 
-# so 
+'''
+NOTE
+# its return output in object that why  we need to use iterable datatype function (list()) 
+# like here used list iterable 
+# so '''
 list2 = [1,2,3,4,5]
 addition2=list(map(lambda num: num + 10 , list2))
 print(addition2)

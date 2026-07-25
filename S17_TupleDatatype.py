@@ -1,4 +1,4 @@
-'''Tuple'''
+'''Tuple
 # it is a collection of object or values that stored in sequence 
 # tuple is immutable datatype 
 # tuple stores multiple datatypes 
@@ -6,6 +6,7 @@
 # tuple denotes by ()
 # tuple  does not support item deletation 
 
+'''
 t = (34234,"shubham",True , (9+4j),True,"shubham")
 print(t)
 # output - (34234, 'shubham', True, (9+4j), True,'shubham')

@@ -1,7 +1,17 @@
-'''loops'''
+'''loops
+-A loop in Python is a control statement that is used to execute a block of code repeatedly until 
+a given condition is satisfied
+
+-| Loop Type    | Meaning                                                                                 |
+| ------------ | ---------------------------------------------------------------------------------------- | 
+| `for` loop   | Used to repeat a block of code for a fixed number of times or to iterate over a sequence | 
+| `while` loop | Repeats a block of code as long as the given condition is True                           | 
+'''
+
+
+
 '''1.For loops'''
-''' it is used when you know how many
-times you want to repeat something'''
+''' it is used when you know how manytimes you want to repeat something'''
 
 # syntax
 '''for variable in sequence : 
@@ -44,8 +54,8 @@ for i in market:
 # Stocks
 
 '''1.1 range()'''
-'''the range function used to generate sequence of numbers 
-usually when you want to run a loop a specific number of times '''
+'''the range function used to generate sequence of numbers usually when you want 
+to run a loop a specific number of times '''
 
 # types of ranges
 '''a. range(0,stop)''' # its also range(stop)

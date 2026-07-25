@@ -1,10 +1,13 @@
-# logical operators 
+'# logical operators '
 
-# A) logical - (and, or , not )
+'# A) logical - (and, or , not )'
+'''NOTE : learn TRUTH GATE of it then learn logical operator  (AI)'''
 
-# i) AND 
+'# i) AND '
 # its return value when all inputs are true 
-# Q.find greatest number
+
+# eg.find greatest number
+
 a,b,c=10,20,30 
 if a > b and a > c : # false
     print(a,"is greater than",b ,"and",c)
@@ -14,9 +17,10 @@ else: # true
     print(c,"is greater than",a,"and",b)
 # output - 30 is greater than 10 and 20
 
-# ii) OR
+'# ii) OR'
 # its return value when one of the input is true 
-# Q.find the number in range or not
+
+# eg.find the number in range or not
 num = 100
 if num < 100 or num == 100 : # true - num = 100
     print("number is in range of 1 to 100")
@@ -25,7 +29,7 @@ else:
  
  # output - number is in range of 1 to 100
  
-#  3)NOT 
+'# iii) NOT '
 
 p = 10
 q = 10 
@@ -36,25 +40,34 @@ else:
 # output - 10 is not equal to 10
 
 
-# B) membership operator  -(in , not in )
+'# B) membership operator  -(in , not in )'
+
 # its check values exist or not in sequence(list,tuple ..etc)
 
-# i) in 
+'# i) in '
+
 list1 = [1,2,3,4,5,6,7]
 print(7 in list1)
 # output - True 
 
-# ii) not in 
+'# ii) not in '
+
 print(10 not in list1)
 # output - True
 
 
-# C)identity operator  - (is , is not )
+'# C)identity operator  - (is , is not )'
+
 # its checks two variables refer to same objects(memory address) or not
-# i) is 
+
+'# i) is '
+
 aaa,bbb=10,10 
 print(aaa is bbb) 
 # output - True 
+
+'#ii) is not '
+
 ccc = 10 
 ddd = 30 
 print(ccc is not ddd)

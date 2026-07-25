@@ -1,33 +1,35 @@
-# bitwise operator 
-'''bitwise operator in python are used to perform operations
-directly on the binary (bit - level) representation of interfers '''
+'# bitwise operator '
+'''
+-bitwise operator in python are used to perform operations
+directly on the binary (bit - level) representation of interfers
+-detail concept you can learn from AI like how covert string,number in bytes or bits and also TRUTH GATE's of IT'''
 
 # binary - 0 and 1 
 
-# 1) bitwise AND(&)
+'# 1) bitwise AND(&)'
 a = 2
 b = 3 
 print(a & b)
 # output - 2
 
-# 2) bitwise OR (|)
+'# 2) bitwise OR (|)'
 print(a | b)
 # output - 3
 
-# 3) bitwise XOR(^)
+'# 3) bitwise XOR(^)'
 print(a ^ b)
 # output - 1 
 
-# 4) bitwise right shift (>>)
+'# 4) bitwise right shift (>>)'
 c = 4 
 print(c >> 1)
 # output - 2 
 
-# 5 ) bitwise left shift (<<)
+'# 5 ) bitwise left shift (<<)'
 d = 4 
 print(d << 1 )
 # output - 8 
 
-# 6) bitwise NOT (~)
+'# 6) bitwise NOT (~)'
 print(~a)
 # output_ -3

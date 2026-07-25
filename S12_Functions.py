@@ -36,7 +36,7 @@ def display2(a,b): # here a and b is parameters
 display2(2,2) # 2,2 argumnets & its reference to the a and b parameters
 # output - 4
 
-''' C . return statement'''
+''' C .return statement'''
 '''it is keyword that return output to the function call '''
 # note - function call store the returned output from function to itself
 
@@ -92,7 +92,7 @@ show4(name="shubham lokhande",age = "24",qualification="Data Engineer")
 '''D.4 arbitory or variable-length arguments - *args - (multiple arguments)'''
 '''its used when you want a function to accept any numbers of arguments 
 without knows how many will be passed'''
-'''note 1. * are used to call extra positon arguments for defined position parameter(*z)
+'''NOTE 1. * are used to call extra positon arguments for defined position parameter(*z)
         2. output is stored in a tuple'''
      
 def show5(y,*z):

@@ -1,6 +1,5 @@
 '''while loops'''
-''' It is used when you wnat to repeat something
-until a condition become True '''
+''' It is used when you wnat to repeat something until a condition become True '''
 '''Entry Control Loop'''
 
 #Syntax

@@ -1,4 +1,9 @@
-'''statements in flow controls'''
+'''
+Statements in flow controls
+-Flow control statements are programming statements used to control the sequence, repetition, and 
+decision-making process of program execution'''
+
+
 '''1.break'''
 '''ts is used to stop loop permantaly before normal ending '''
 # eg.1

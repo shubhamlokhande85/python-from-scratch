@@ -1,5 +1,12 @@
-'''SET'''
-'''1. Set operation'''
+'''SET
+-A set in Python is an unordered collection of unique elements. It is used to store multiple values 
+ without allowing duplicate items
+-Unordered: Set elements have no fixed order and cannot be accessed by index.
+-Immutable Elements: Set contains only immutable data types like numbers, strings, and tuples.
+-Denoted By: A set is represented using curly braces { }. Example: {1, 2, 3}'''
+
+'''1. Set operation
+Set operations are operations used to perform mathematical actions on sets.'''
 
 '''1.1 union operation (|) '''
 

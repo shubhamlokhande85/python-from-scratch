@@ -49,6 +49,9 @@ print(dict)
 # <class 'dict'>
 
 'b. Dictionary methods'
+'''
+Dictionary methods are built-in functions in Python used to perform operations on dictionaries, 
+such as adding, updating, accessing, and removing key-value pairs'''
 
 '1.get()'
 'it is a dictionary method used to safetly access the value of key'

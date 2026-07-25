@@ -1,9 +1,12 @@
 '''1.indexing'''
 '''in python indexing means accessing individual elements of sequence 
 using their position(index)'''
+'''
+
 # in python indexing start from 0 
 # indexing always travelling or iterating left to right
 # there is two of indexing positive indexing and negative indexing 
+'''
 
 list = [1,2,3,4,5,6,7,8,9]
 #index  0 1 2 3 4 5 6 7 8 
@@ -35,6 +38,7 @@ print(list)
 
 '''1.5.deleting elements using indexing'''
 # when have delete we use del keyword 
+
 '''a.deleteing specific element'''
 del list[0]
 print(list)
@@ -44,6 +48,7 @@ print(list)
 list2 =["s",False,True,(8+9j),900]
 print(list2)
 #["s",False,True,(8+9j),900]
+
 del list2 # its delete entire list
 '''print(list2)''' # raise nameError
 #NameError: name 'list2' is not defined. Did you mean: 'list'?

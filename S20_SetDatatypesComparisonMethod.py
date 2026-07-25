@@ -1,5 +1,7 @@
 '''SET '''
-'''SET COMPARISON METHOD'''
+
+'''SET COMPARISON METHOD
+Set comparison methods are used to compare two sets and check their relationship'''
 
 '1.issubset()'
 '''The issubset() method checks whether all elements of one set are present in another set'''

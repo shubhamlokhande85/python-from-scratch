@@ -1,9 +1,10 @@
-'''a.List[]'''
+'''a.List[]
 # it is a collection of object or values that stored in sequence 
 # list are mutubles 
 # list stores multiples datatypes 
 # list allow duplicate values 
 # list denote by []
+'''
 
 list = [1,2,3,4,5,6,7,8,9]
 print(list)

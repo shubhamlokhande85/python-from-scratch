@@ -1,12 +1,11 @@
 '''SET'''
 '''set is a collection of objects or values that are not stored
-sequence and hence also unindexed'''
-
-'''-set are unorderd '''
-'''-set can store different types data types'''
-'''-set are immutable datatype and set cannot be updated using index '''
-'''-set does not allow duplicate values'''
-'''set denotes curly brackets { }'''
+sequence and hence also unindexed
+-set are unorderd
+-set can store different types data types
+-set are immutable datatype and set cannot be updated using index 
+-set does not allow duplicate values
+-set denotes curly brackets { }'''
 
 s = {"welcome",True,False,45,(7+8j)}
 print(s)
@@ -29,7 +28,9 @@ print(s4)
 #<class 'list'>
 # []
 
-'''1.set methods '''
+'''1.set methods 
+Set methods are built-in functions in Python used to perform operations on sets, such as adding,
+removing, and updating element'''
 
 '''1.1 add()'''
 
