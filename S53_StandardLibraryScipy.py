@@ -1,8 +1,8 @@
 'SCIPY'
 '''
--scipy is a predefined python library used for scientific, mathematical and 
+-Scipy is a predefined python library used for scientific, mathematical and 
 enginnering computation
--it is built on top of numpy and provides many adavance function so you 
+-It is built on top of numpy and provides many adavance function so you 
 don't have to write complex algorithms from scratch
 -
 | Module              | What to Learn                    | Use                        |
