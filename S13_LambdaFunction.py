@@ -1,4 +1,5 @@
 '''1.Anomymous or lambda()'''
+
 '''a lambda function is one line function that can take 
 any number of arguments but return only on expreesion '''
 
@@ -24,6 +25,7 @@ print(result)
 
 
 '''2.Method used with lambda '''
+
 '''2.1 .map()'''
 '''it used to apply a function to every elements of iterable (list,tuple..etc)'''
 '''syntax 
@@ -47,6 +49,7 @@ print(addition2)
 '''[11, 12, 13, 14, 15]'''
 
 '''2.2. filter()'''
+
 '''it is used to select elements from iterable based on function condition 
 its return only those elements for which the condition is true''' 
 

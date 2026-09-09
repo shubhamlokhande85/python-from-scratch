@@ -1,4 +1,6 @@
-'''a.List[]
+"Python Data Structures "
+
+'''a.List[] 
 # it is a collection of object or values that stored in sequence 
 # list are mutubles 
 # list stores multiples datatypes 

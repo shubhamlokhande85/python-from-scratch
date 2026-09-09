@@ -1,4 +1,4 @@
-'''1.indexing'''
+'''1.Indexing'''
 '''in python indexing means accessing individual elements of sequence 
 using their position(index)'''
 '''

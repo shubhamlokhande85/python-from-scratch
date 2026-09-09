@@ -5,6 +5,7 @@ decision-making process of program execution'''
 
 
 '''1.break'''
+
 '''ts is used to stop loop permantaly before normal ending '''
 # eg.1
 for i in range(11):
@@ -36,6 +37,7 @@ while i <11:
 # 6
 
 '''2.continue'''
+
 '''it is used to skip the iteration of loop body for 
 current iteration  only move control to the next'''
 
@@ -73,6 +75,7 @@ while i < 11:
 
 
 '''3.pass'''
+
 ''' the pass statement is null(empty) statement in python
 it is used when a statement is required syntactically , but dont 
 you do not want tp write any code there yet'''

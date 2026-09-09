@@ -1,11 +1,3 @@
-'                                     Welcome! To __python_from_scratch__ Repository                                           '  
-
-                          
-'''
-Here we will learn python from beginning ,
-A proficient programmer is someone who writes short, meaningful programs with powerful logic.
-let dive in it ! Happy Coding! 🚀 
-'''
 
 
 '1.Variable'
@@ -17,7 +9,7 @@ in a variable can be changed during program execution
 
 '''
 
-'A.rules to intialise variables in python '
+'A.Rules to Initialize Variables in Python '
 
 '''
 # 1) Never start the variables with numbers - 1234= 
@@ -33,6 +25,7 @@ print(intro)
 'B.Types of initilize variables in python'
 
 '#1.one value and many variables '
+#Eg
 a=b=c=d=100
 print(a)
 print(b)
@@ -46,6 +39,7 @@ print(d)
 
 '#2.many values many variables '
 
+#Eg 
 e,f,g,h=100,"shubahm","vidya",(8+9j)
 print(e)
 print(f)
@@ -58,7 +52,7 @@ print(h)
 
 
 '#3.value unpacks'
-
+#Eg
 l = [1,"parthiksha", "ashiwini","dhanashri"]
 i,j,k,n=l
 print(i)
@@ -71,6 +65,8 @@ print(n)
 # dhanashri
 
 '#4.id - its shows memory address of variables'
+
+#Eg
 print(id(a))
 print(id(b))
 # 140714182283480
@@ -78,6 +74,7 @@ print(id(b))
 
 
 '#5.type - its shows of datatype of variable'
+#Eg
 print(type(a))
 print(type(h))
 # <class 'int'>

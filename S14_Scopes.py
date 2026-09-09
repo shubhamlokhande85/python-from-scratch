@@ -1,8 +1,10 @@
-'''A.global scope '''
+'A.global scope '
+
 '# - outside function or class which scope we have is global scope'
 
 
-'''1.global variable'''
+'1.global variable'
+
 '''a global variable is variable is defined outside of any
 function or class and it can be accessed from anywhere in 
 same module(file)'''
@@ -34,9 +36,12 @@ print(y)
 # hi I'm shubham 
 
 '''B.Local scope '''
+
 '''a scope inside the function or class called local scope '''
 
-'''. local variable '''
+
+'. local variable '
+
 '''a variable decalared in inside the function or class called local variable '''
 def display3():
     z = "I would like to introduce myself and thanks for giving my this oppurtinity"

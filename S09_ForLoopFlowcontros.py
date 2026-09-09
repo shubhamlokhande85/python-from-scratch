@@ -2,7 +2,7 @@
 -A loop in Python is a control statement that is used to execute a block of code repeatedly until 
 a given condition is satisfied
 
--| Loop Type    | Meaning                                                                                 |
+| Loop Type    | Meaning                                                                                 |
 | ------------ | ---------------------------------------------------------------------------------------- | 
 | `for` loop   | Used to repeat a block of code for a fixed number of times or to iterate over a sequence | 
 | `while` loop | Repeats a block of code as long as the given condition is True                           | 
